@@ -1,19 +1,19 @@
-// import { Routes, Route } from 'react-router-dom'
-// import MainLayout from '../../layouts/MainLayout'
-// import HomePage from '../../pages/HomePage/HomePage'
+import { Routes, Route } from 'react-router-dom'
+import MainLayout from '../../layouts/MainLayout'
+import HomePage from '../../pages/HomePage/HomePage'
 import './App.css'
 
 function App() {
   
 
-  // return (
-  //     <MainLayout>
-  //       <Routes>
-  //       <Route path="/" element={<HomePage />} />
-  //       </Routes>
+  return (
+      <MainLayout>
+        <Routes>
+        <Route path="/" element={<HomePage />} />
+        </Routes>
         
-  //     </MainLayout>
-  // )
+      </MainLayout>
+  )
 }
 
 export default App
